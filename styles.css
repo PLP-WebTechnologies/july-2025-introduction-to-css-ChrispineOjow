@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Used the above lines of code to reset my body css so 
+    that it can be the same in all browsers copied from the internet*/
+
+
+body{
+
+    background-color: #091c2e;
+    color: aliceblue;
+    
+}
+
+header{
+
+    background-color: black;
+    color: whitesmoke;
+    height: 70px;
+    position:sticky;
+    top:0;
+  
+
+}
+
+.navigation{
+  padding:20px 30px;
+}
+
+.signup a{
+    
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+
+.signup{
+
+    float: right;
+    display: flex;
+    border: 4px, none,#003366;
+    border-radius: 10px;
+    height: 35px;
+    width: 85px;
+    background-color:#003366;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+
+}
+
+.signup:hover{
+    cursor: pointer;
+}
+
+h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#LoginMenu{
+
+    background-color: #052648;
+    width: 900px;
+    height: 650px;
+    display: flex;
+    position: relative;
+    left: 20%;
+    top: 60px;
+    border-radius: 20px;
+}
+
+#MessageSection{
+
+   
+    width: 50%;
+    height: 100%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 30px  40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+.message{
+
+    padding: 10px;
+    position:relative;
+    top :300px;
+    font-size: 18px;
+}
+
+.messageheading h2{
+
+    font-size: 26px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+.messageheading p{
+
+    font-size: 18px;
+}
+/* The Above deals with the left side of the login menu*/
+
+#LoginForm{
+
+    width: 50%;
+    height: 100%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 30px  40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+
+}
+
+
+.logindetails{
+
+    margin: 70px 0 70px 0;
+    position: relative;
+    top:40px;
+   
+
+    
+}
+.logindetails input{
+
+    width: 100%;
+    height:30px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.loginlowerpart{
+
+    position: relative;
+    top: 30px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.login-btn{
+
+    margin-top: 30px;
+ 
+}
+
+.loginwithsocials input{
+
+
+    align-items: center;
+    width: 40%;
+    height: 35px;
+    justify-content: space-around;
+    margin: 10px;
+    border-radius: 10px;
+    border:none;
+    
+}
+
+.loginwithsocials input:hover{
+
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
